@@ -1,5 +1,5 @@
 ###Illustrator UI Exploration
-##Formerly located at http://erinsparling.com/craziness/
+####Formerly located at http://erinsparling.com/craziness/
 
 Many years ago, I was obsessesd with Adobe Illustrator, and in particular creating incredibly complex illustrator documents. The point of these documents was to explore the structure, and not just the final rendered result of these layers, swatches and symbols. 
 
