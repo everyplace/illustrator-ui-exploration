@@ -1,0 +1,114 @@
+/*palettes*/
+.palette {
+	background-color:#e0e0e0;
+}
+
+.paletteHeader {
+	background-image:url(../img/assets/paletteHeader_inactive.png);
+	background-position:top left;
+	background-repeat:repeat-x;
+	color:#4a4a4a;
+	width:250px;
+	height:17px;
+	clear:both;
+}
+.paletteTitles li a{
+	font-weight:bold;
+	font-size:1em;
+	text-transform:uppercase;
+	display:block;
+	float:left;
+	height:17px;
+	width:70px;
+	background-image:url(../img/assets/paletteTitles_inactive.png);
+	background-position:top right;
+}
+
+.paletteTitles li.active a{
+	background-image:url(../img/assets/paletteTitles_active.png);
+}
+
+.paletteTitles li a:hover {
+	background-image:url(../img/assets/paletteTitles_hover.png);
+}
+
+.paletteTitles li.active a:hover {
+	background-image:url(../img/assets/paletteTitles_active.png);
+}		
+
+.paletteTitles li a span {
+	padding-top:3px;
+	padding-left:5px;
+	display:block;
+}
+
+.paletteHeader .tool .iconMenu a{
+	float:right;
+	height:17px;
+	width:21px;
+	background-image:url(../img/assets/paletteTool_inactive.png);
+	background-position:top right;			
+}
+
+.paletteHeader .tool .iconMenu a:hover {
+	background-image:url(../img/assets/paletteTool_hover.png);
+}
+
+.paletteHeader .tool .iconMenu span {
+	display:none;
+}
+
+.paletteHeader .flyoutMenu {
+	width:200px;
+	background-color:white;
+	border-right:1px solid black;
+	border-bottom:2px solid black;
+	position:absolute;
+	top:3px;
+	right:21px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.paletteHeader .flyoutMenu .menuItems {
+	padding-top:3px;
+}
+.paletteHeader .flyoutMenu .menuItems .item {
+	margin:3px;
+}
+.paletteHeader .flyoutMenu .menuItems .item a, .paletteHeader .flyoutMenu .menuItems .item span {
+	font-size:1.5em;
+	display:block;
+	padding:4px 4px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+.paletteHeader .flyoutMenu .menuItems .item a:hover {
+	background-color:#726C6E;
+	color:white;
+}
+.paletteHeader .flyoutMenu .menuItems .item span {
+	color:#C8C8C8;
+}
+
+
+/* palette utilities */
+.palette .layoutStyle-icon {
+	float:left;
+}
+
+.palette .layoutStyle-icon .item {
+	width:48px;
+	height:48px;
+}
+
+.palette .layoutStyle-list {
+	display:block;
+	list-style-type:none;
+	float:none;	
+}
+
+.palette .layoutStyle-list .item {
+	height:19px;
+}

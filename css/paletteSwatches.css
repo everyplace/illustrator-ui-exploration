@@ -1,0 +1,41 @@
+/*symbols palette*/
+.swatches {
+/*	height:200px;
+*/}
+
+
+.layoutStyle-list .swatch {
+	border:1px solid black;
+}
+
+.layoutStyle-icon li.swatch {
+	border:1px solid black;
+	width:48px;
+	height:48px;
+	float:left;
+}
+
+
+.layoutStyle-icon .colorTool a {
+	display:block;
+	height:48px;
+}
+
+.layoutStyle-icon .swatchLabel {
+	display:none;
+}
+#swatch1 .colorTool a {
+	background-color:cyan;
+}
+#swatch2 .colorTool a {
+	background-color:magenta;
+}
+#swatch3 .colorTool a {
+	background-color:yellow;
+}		
+#swatch4 .colorTool a {
+	background-color:black;
+}
+#swatch5 .colorTool a {
+	background-color:white;
+}

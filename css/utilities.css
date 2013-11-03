@@ -1,0 +1,8 @@
+/*utilities*/
+.hide {
+	display:none;
+}
+
+li.selected, div.selected {
+	background-color:#c7d0db;
+}

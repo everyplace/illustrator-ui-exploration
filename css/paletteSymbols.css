@@ -1,0 +1,46 @@
+/*symbols palette*/
+.symbol {
+	background-color:white;
+}
+
+
+.layoutStyle-list .symbol {
+	border:1px solid black;
+}
+
+.layoutStyle-icon li.symbol {
+	border:1px solid black;
+	float:left;
+}
+
+.symbols .layoutStyle-icon li.symbol {
+}
+
+
+.symbols .layoutStyle-icon .colorTool a {
+	display:block;
+	background-position:top left;
+	background-repeat:repeat;
+}
+
+.layoutStyle-icon .symbolLabel, .symbol .colorTool a span {
+	display:none;
+}
+#symbol1 .colorTool a {
+	background-image:url(../img/documents/document1symbol1.png);
+}
+#symbol2 .colorTool a {
+	background-image:url(../img/documents/document1symbol2.png);
+}
+#symbol3 .colorTool a {
+	background-image:url(../img/documents/document1symbol3.png);
+}		
+#symbol4 .colorTool a {
+	background-image:url(../img/documents/document1symbol4.png);
+}
+#symbol5 .colorTool a {
+	background-image:url(../img/documents/document1symbol5.png);
+}
+#symbol5 .colorTool a {
+	background-image:url(../img/documents/document1symbol6.png);
+}

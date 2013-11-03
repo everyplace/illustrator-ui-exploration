@@ -1,0 +1,66 @@
+/*layers palette*/
+.layers li.layer {
+	list-style-type:none;
+	display:block;
+}
+
+.layerTools {
+	float:left;
+	height:19px;
+	width:44px;
+	background-image:url(../img/assets/paletteLayersBackground.png);
+	background-position:top right;
+	background-repeat:no-repeat;
+	border-left:1px solid white;
+	border-right:1px solid black;
+	padding-left:2px;			
+}
+
+.layerTools li a span {
+	display:none;
+}
+
+.layerTools .visibilityTool, .layerTools .lockTool, .layerTools .colorTool{
+	margin-top:3px;
+	float:left;
+}
+
+.layerTools .visibilityTool a, .layerTools .lockTool a {
+	display:block;
+	background-position:top left;
+	background-repeat:no-repeat;
+	background-image:url(../img/assets/paletteLayersState_inactive.png);			
+	width:17px;
+	height:17px;			
+}
+
+.layerTools .visibilityTool a.active {
+	background-image:url(../img/assets/paletteLayersState_active.png);
+}
+
+.layerTools .colorTool a {
+	display:block;
+	width:4px;
+	height:13px;
+}
+
+#layer1 .colorTool a {
+	background-color:cyan;
+}
+#layer2 .colorTool a {
+	background-color:magenta;
+}
+#layer3 .colorTool a {
+	background-color:yellow;
+}		
+#layer4 .colorTool a {
+	background-color:black;
+}	
+
+/*temporary until i make layers expandable*/
+.layerLabel {
+	border-top:1px solid white;
+	padding-left:53px;
+	font-size:1.2em;
+	line-height:18px;
+}
